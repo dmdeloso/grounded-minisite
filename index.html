@@ -37,33 +37,33 @@
         }
         h1{
             opacity: 0;
+            margin-left: 1rem;
             animation: fade-in 1s ease-in forwards;
-            width: 70%;
-            margin: auto;
         }
         img{
             position: relative;
             top: -5px;
             opacity: 0;
-            animation: fade-in 1s .5s ease-in forwards, hover 1.5s ease-in-out infinite alternate;
-            width: 50%;
+            animation: fade-in 1s 1s ease-in forwards, hover 1.5s ease-in-out infinite alternate;
             margin: 1rem 25%;
             border-radius: 15px;
             border: 5px solid #e4bc84;
             box-shadow: 1px 1px 1px black;
+            max-width: 50%;
         }
         p{
-            width: 90%;
-            margin: auto;
             opacity: 0;
-            animation: fade-in 1s 1s ease-in forwards;
+            animation: fade-in 1s .5s ease-in forwards;
+            max-width: 1000px;
+            margin-left: 1rem;
 
         }
     </style>
 </head>
 <body>
     <h1>The object you just scanned was <span>made from coffee.</span></h1>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Roasted_coffee_beans.jpg/640px-Roasted_coffee_beans.jpg" alt="Coffee beans">
     <p>Coffee already fuels everything from first dates to business meetings, but what if it could also build community? <strong>Grounded</strong> is an initiative focused on transforming leftover coffee grounds into an affordable, sustainable material. Rather than discarding pounds and pounds of used grounds every day, coffee shops can give back to the communities they serve and help them flourish.</p>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Roasted_coffee_beans.jpg/640px-Roasted_coffee_beans.jpg" alt="Coffee beans">
+
 </body>
 </html>
